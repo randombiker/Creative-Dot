@@ -1,0 +1,134 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(204, 200, 200);
+}
+
+#services {
+  margin: 10px;
+  margin-bottom: 10px;
+  color: #4d4d4d;
+}
+
+#flex-container {
+  height: auto;
+  width: auto;
+  padding: 50px;
+  margin: 0 10px 10px 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.column {
+  width: 200px;
+  padding: 60px;
+}
+.flex-item {
+  width: 210px;
+  height: 75px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 23px;
+  padding-bottom: 15px;
+  color: #4d4d4d;
+}
+
+.button {
+  height: 30px;
+  width: 125px;
+  font-size: 14px;
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+.button:hover {
+  box-shadow: 0 0;
+}
+
+/* changing svg's colors */
+
+.filter-svg1 {
+  filter: invert(46%) sepia(63%) saturate(764%) hue-rotate(5deg)
+    brightness(104%) contrast(103%);
+}
+.filter-svg2 {
+  height: 120px;
+  filter: invert(32%) sepia(49%) saturate(2084%) hue-rotate(1deg)
+    brightness(93%) contrast(105%);
+}
+.filter-svg3 {
+  filter: invert(17%) sepia(93%) saturate(2485%) hue-rotate(186deg)
+    brightness(103%) contrast(101%);
+}
+.filter-svg4 {
+  filter: invert(40%) sepia(19%) saturate(4469%) hue-rotate(144deg)
+    brightness(95%) contrast(101%);
+}
+
+.button-color1 {
+  background-color: #d08900;
+  box-shadow: 0 4px #ffc600;
+}
+
+.button-color2 {
+  background-color: #bc4700;
+  box-shadow: 0 4px #ff6b00;
+}
+.button-color3 {
+  background-color: #00609b;
+  box-shadow: 0 4px #00b2e2;
+}
+.button-color4 {
+  background-color: #009789;
+  box-shadow: 0 4px #00bca4;
+}
+
+.button-color1:hover {
+  background-color: #ffc600;
+}
+.button-color2:hover {
+  background-color: #ff6b00;
+}
+.button-color3:hover {
+  background-color: #00b2e2;
+}
+.button-color4:hover {
+  background-color: #00bca4;
+}
+
+.title-color1 {
+  color: #d08900;
+}
+.title-color2 {
+  color: #bc4700;
+}
+.title-color3 {
+  color: #00609b;
+}
+.title-color4 {
+  color: #009789;
+}
